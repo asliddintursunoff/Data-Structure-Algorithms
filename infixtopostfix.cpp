@@ -67,7 +67,7 @@ class Infix{
                             while(stack->top !=-1 && p<=presidence(stack->arr[stack->top]) ){
                                 
                                 result += stack->arr[stack->top];
-                                stack->top --;
+                                stack->top --;   
                                 // p = presidence(stack->arr[stack->top]);
 
                             }
